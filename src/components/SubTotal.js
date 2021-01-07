@@ -23,7 +23,7 @@ function SubTotal() {
             </>
           )}
           decimalScale={2}
-          value={console.log(getBasketTotal(basket))}
+          value={getBasketTotal(basket)}
           displayType={"text"}
           thousandSeparator={true}
           prefix={"$"}

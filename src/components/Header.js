@@ -36,6 +36,12 @@ const Header = () => {
                     </span>
                     
                 </div>
+            <Link to='/orders'>
+                <div className="header-option">
+                    <span className="header-option-line-one">Returns</span>
+                    <span className="header-option-line-two">Orders</span>
+                </div>
+            </Link>
                 </Link>
                 <div className="header-option" >
                 <span className="header-option-line1" >
